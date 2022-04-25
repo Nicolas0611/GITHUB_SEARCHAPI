@@ -54,7 +54,7 @@ const Card = () => {
               alt="Website Icon"
             />
             <a href={user.blog}>
-              {user.blog !== null ? user.blog : "Not Available"}
+              {user.blog !== "" ? user.blog : "Not Available"}
             </a>
           </li>
         </ul>
